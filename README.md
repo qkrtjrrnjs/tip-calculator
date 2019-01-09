@@ -1,8 +1,8 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *tipcal*
 
-**Name of your app** is a tip calculator application for iOS.
+**tipcal** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Seok Kwun Park**
 
 Time spent: **X** hours spent in total
 
