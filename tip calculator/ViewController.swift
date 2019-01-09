@@ -10,11 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var originalAmount = Int()
+    
+    @IBOutlet weak var amountLabel: UILabel!
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
+    
+    @IBAction func fifteenBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func twentyBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func twentyfiveBtn(_ sender: Any) {
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
