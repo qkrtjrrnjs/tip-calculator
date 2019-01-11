@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/QLy1Qt8.gifv' title='tipcal' width='' alt='tipcal' />
+<img src='https://imgur.com/QLy1Qt8' title='tipcal' width='' alt='tipcal' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
