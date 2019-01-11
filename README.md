@@ -26,6 +26,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+<blockquote class="imgur-embed-pub" lang="en" data-id="QLy1Qt8"><a href="//imgur.com/QLy1Qt8"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <img src='https://imgur.com/QLy1Qt8' title='tipcal' width='' alt='tipcal' />
 
