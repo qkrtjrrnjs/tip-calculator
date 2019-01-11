@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     var originalAmount = Int()
     var constraints = [NSLayoutConstraint]()
+    public var globalVars = variables()
 
     @IBOutlet weak var slider: UISlider!{
         didSet{
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     
     @IBAction func tipPercentage(_ sender: Any) {
-        tipPercentage.text = "\((Int)(slider.value * 100) / 4)%"
+        tipPercentage.text = "\((Int)(slider.value * 100) / globalVars.divider)%"
         tipPercentage.textColor = UIColor(red:0.96, green:0.64, blue:0.04, alpha:1.0)
         if(amount.hasText){
             let result = (((slider.value * 100).rounded(.towardZero) / 4.0 + 100) / 100) * Float(amount.text!)!
@@ -39,7 +40,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        slider.center = CGPoint(x: self.view.frame.size.width / 1.17, y: self.view.frame.size.height/2.8)
+        slider.center = CGPoint(x: self.view.frame.size.width / 1.17, y: self.view.frame.size.height/2.6)
         
         amount.keyboardType = UIKeyboardType.decimalPad
         amount.becomeFirstResponder()
@@ -47,7 +48,7 @@ class ViewController: UIViewController {
         amount.placeholder = "Enter amount"
         amount.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
 
-        tipPercentage.text = "\((Int)(slider.value * 100) / 4)%"
+        tipPercentage.text = "\((Int)(slider.value * 100) / globalVars.divider)%"
         tipPercentage.textColor = UIColor(red:0.96, green:0.64, blue:0.04, alpha:1.0)
         
         tipLabel.textColor = UIColor(red:0.96, green:0.64, blue:0.04, alpha:1.0)

@@ -21,6 +21,10 @@
 		8390D05A21E7DD650014F5A0 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8390D05321E7DD640014F5A0 /* Heebo-Bold.ttf */; };
 		8390D05B21E7DD650014F5A0 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8390D05421E7DD640014F5A0 /* Heebo-Regular.ttf */; };
 		8390D05C21E7DD650014F5A0 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8390D05521E7DD640014F5A0 /* Heebo-Black.ttf */; };
+		8390D06121E81EF40014F5A0 /* ABOVE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8390D06021E81EF40014F5A0 /* ABOVE.ttf */; };
+		8390D06321E8203B0014F5A0 /* Quite Magical - TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8390D06221E8203B0014F5A0 /* Quite Magical - TTF.ttf */; };
+		8390D06521E822D50014F5A0 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390D06421E822D50014F5A0 /* settingsViewController.swift */; };
+		83ACAB5C21E83356004A915C /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ACAB5B21E83356004A915C /* global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		8390D05321E7DD640014F5A0 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
 		8390D05421E7DD640014F5A0 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
 		8390D05521E7DD640014F5A0 /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
+		8390D06021E81EF40014F5A0 /* ABOVE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ABOVE.ttf; sourceTree = "<group>"; };
+		8390D06221E8203B0014F5A0 /* Quite Magical - TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quite Magical - TTF.ttf"; sourceTree = "<group>"; };
+		8390D06421E822D50014F5A0 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		83ACAB5B21E83356004A915C /* global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,8 @@
 				8390D04E21E7DCF80014F5A0 /* Fonts */,
 				8390CFE621E6B6690014F5A0 /* AppDelegate.swift */,
 				8390CFE821E6B6690014F5A0 /* ViewController.swift */,
+				8390D06421E822D50014F5A0 /* settingsViewController.swift */,
+				83ACAB5B21E83356004A915C /* global.swift */,
 				8390CFEA21E6B6690014F5A0 /* Main.storyboard */,
 				8390CFED21E6B66A0014F5A0 /* Assets.xcassets */,
 				8390CFEF21E6B66A0014F5A0 /* LaunchScreen.storyboard */,
@@ -143,6 +153,8 @@
 		8390D04E21E7DCF80014F5A0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				8390D06221E8203B0014F5A0 /* Quite Magical - TTF.ttf */,
+				8390D06021E81EF40014F5A0 /* ABOVE.ttf */,
 				8390D05521E7DD640014F5A0 /* Heebo-Black.ttf */,
 				8390D05321E7DD640014F5A0 /* Heebo-Bold.ttf */,
 				8390D05121E7DD630014F5A0 /* Heebo-ExtraBold.ttf */,
@@ -259,8 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8390CFF121E6B66A0014F5A0 /* LaunchScreen.storyboard in Resources */,
+				8390D06121E81EF40014F5A0 /* ABOVE.ttf in Resources */,
 				8390D05721E7DD650014F5A0 /* Heebo-Medium.ttf in Resources */,
 				8390D05621E7DD650014F5A0 /* Heebo-Thin.ttf in Resources */,
+				8390D06321E8203B0014F5A0 /* Quite Magical - TTF.ttf in Resources */,
 				8390D05A21E7DD650014F5A0 /* Heebo-Bold.ttf in Resources */,
 				8390D05B21E7DD650014F5A0 /* Heebo-Regular.ttf in Resources */,
 				8390CFEE21E6B66A0014F5A0 /* Assets.xcassets in Resources */,
@@ -292,8 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83ACAB5C21E83356004A915C /* global.swift in Sources */,
 				8390CFE921E6B6690014F5A0 /* ViewController.swift in Sources */,
 				8390CFE721E6B6690014F5A0 /* AppDelegate.swift in Sources */,
+				8390D06521E822D50014F5A0 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
