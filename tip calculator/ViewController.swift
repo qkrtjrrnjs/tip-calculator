@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     @IBAction func tipPercentage(_ sender: Any) {
         tipPercentage.text = "\((Int)(slider.value * 100) / globalVars.divider)%"
         tipPercentage.textColor = UIColor(red:0.96, green:0.64, blue:0.04, alpha:1.0)
-        if(amount.hasText){
+        if(amount.hasText && amount.text != "."){
             let result = (((slider.value * 100).rounded(.towardZero) / 4.0 + 100) / 100) * Float(amount.text!)!
             resultLabel.text = "$" + String(format:"%.02f", result)
             resultLabel.textColor = UIColor(red:0.96, green:0.64, blue:0.04, alpha:1.0)
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
-        if(amount.hasText){
+        if(amount.hasText && amount.text != "."){
             let result = (((slider.value * 100).rounded(.towardZero) / 4.0 + 100) / 100) * Float(amount.text!)!
             resultLabel.text = "$" + String(format:"%.02f", result)
             resultLabel.textColor = UIColor(red:0.96, green:0.64, blue:0.04, alpha:1.0)
